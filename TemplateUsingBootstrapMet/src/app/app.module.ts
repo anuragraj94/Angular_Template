@@ -9,6 +9,7 @@ import { TableListComponent } from './Components/table-list/table-list.component
 import { TypoComponent } from './Components/typo/typo.component';
 import { IconsComponent } from './Components/icons/icons.component';
 import { NotificationComponent } from './Components/notification/notification.component';
+import { LoginComponent } from './Components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NotificationComponent } from './Components/notification/notification.co
     TableListComponent,
     TypoComponent,
     IconsComponent,
-    NotificationComponent
+    NotificationComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

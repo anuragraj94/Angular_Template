@@ -1,3 +1,4 @@
+import { LoginComponent } from './Components/login/login.component';
 import { NotificationComponent } from './Components/notification/notification.component';
 import { IconsComponent } from './Components/icons/icons.component';
 import { TypoComponent } from './Components/typo/typo.component';
@@ -9,6 +10,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
+  {path:'login',component:LoginComponent},
   {path:'', pathMatch:'full',redirectTo:'dashboard'},
   {path:'dashboard',component:DashboardComponent},
   {path:'userprofile',component:UserProfileComponent},
