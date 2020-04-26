@@ -10,8 +10,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  {path:'login',component:LoginComponent},
   {path:'', pathMatch:'full',redirectTo:'dashboard'},
+  {path:'login',component:LoginComponent},
   {path:'dashboard',component:DashboardComponent},
   {path:'userprofile',component:UserProfileComponent},
   {path:'table',component:TableListComponent},

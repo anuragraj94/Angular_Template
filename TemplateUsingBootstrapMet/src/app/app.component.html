@@ -1,5 +1,5 @@
 <div class="wrapper ">
-  <div class="sidebar" data-color="purple" data-background-color="white" data-image="./assets/img/sidebar-1.jpg">
+  <div class="sidebar" data-color="purple" data-background-color="black" data-image="./assets/img/sidebar-1.jpg">
     <!--
       Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
@@ -126,7 +126,7 @@
                 <a class="dropdown-item" href="#">Profile</a>
                 <a class="dropdown-item" href="#">Settings</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Log out</a>
+                <a class="dropdown-item" (click)="router.navigate(['/login']);">Log out</a>
               </div>
             </li>
           </ul>
